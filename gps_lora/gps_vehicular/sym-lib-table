@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name gps_vehicular-rescue)(type Legacy)(uri ${KIPRJMOD}/gps_vehicular-rescue.lib)(options "")(descr ""))
+)
