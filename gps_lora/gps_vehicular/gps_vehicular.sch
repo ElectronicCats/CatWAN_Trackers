@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:gps_vehicular-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -601,11 +601,6 @@ Wire Wire Line
 Wire Wire Line
 	2820 5080 2820 5440
 Wire Wire Line
-	2820 6120 3060 6120
-Wire Wire Line
-	2820 6380 2820 6120
-Connection ~ 2820 6120
-Wire Wire Line
 	2820 6680 2820 6940
 Wire Wire Line
 	3640 5640 3640 6120
@@ -637,8 +632,6 @@ Connection ~ 5380 6120
 Wire Wire Line
 	3340 5440 2820 5440
 Connection ~ 2820 5440
-Wire Wire Line
-	2820 5440 2820 6120
 Wire Wire Line
 	1910 1150 1910 1290
 Connection ~ 1910 1290
@@ -693,20 +686,6 @@ $EndComp
 Wire Wire Line
 	3220 2960 3530 2960
 $Comp
-L Device:D_Schottky D4
-U 1 1 5C6BC8F6
-P 3210 6120
-F 0 "D4" H 3210 5904 50  0000 C CNN
-F 1 "D_Schottky" H 3210 5995 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3210 6120 50  0001 C CNN
-F 3 "~" H 3210 6120 50  0001 C CNN
-F 4 "MBR120VLSFT3G" H 1680 3800 50  0001 C CNN "manf#"
-	1    3210 6120
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3360 6120 3640 6120
-$Comp
 L gps_LoRa:LM2596 U1
 U 1 1 5C7B2B47
 P 2320 1350
@@ -718,4 +697,25 @@ F 4 "RFM95" H 2320 1350 50  0001 C CNN "manf#"
 	1    2320 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 5C968F33
+P 3260 6120
+F 0 "D4" H 3260 5904 50  0000 C CNN
+F 1 "D_Schottky" H 3260 5995 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3260 6120 50  0001 C CNN
+F 3 "~" H 3260 6120 50  0001 C CNN
+F 4 "MBR120VLSFT3G" H 1730 3800 50  0001 C CNN "manf#"
+	1    3260 6120
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2820 5440 2820 6120
+Wire Wire Line
+	3640 6120 3410 6120
+Wire Wire Line
+	3110 6120 2820 6120
+Connection ~ 2820 6120
+Wire Wire Line
+	2820 6120 2820 6380
 $EndSCHEMATC

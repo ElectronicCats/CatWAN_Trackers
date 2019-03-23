@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:gps_minimo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -468,7 +468,7 @@ F 4 "CONUFL001-SMD" H 10290 3880 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L gps_LoRa:ATSAMD21E U3
+L gps_minimo-rescue:ATSAMD21E-gps_LoRa U3
 U 1 1 5C7B383C
 P 4900 3340
 F 0 "U3" H 5265 5194 45  0000 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 4900 3340 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gps_LoRa:RFM95W-868S2 U4
+L gps_minimo-rescue:RFM95W-868S2-gps_LoRa U4
 U 1 1 5C7B3DA5
 P 9220 4540
 F 0 "U4" H 9220 5207 50  0000 C CNN
@@ -495,4 +495,19 @@ Wire Wire Line
 Wire Wire Line
 	9680 2950 9680 3100
 Connection ~ 9680 3100
+Text Label 6300 1740 0    50   ~ 0
+LED_1
+Text Label 6300 1840 0    50   ~ 0
+LED_2
+Text GLabel 6300 1940 2    50   Input ~ 0
+V_DIV
+Text Label 6300 3340 0    50   ~ 0
+1PPS
+NoConn ~ 6300 2040
+NoConn ~ 6300 2240
+NoConn ~ 6300 2340
+NoConn ~ 6300 2440
+NoConn ~ 6300 2640
+NoConn ~ 6300 2740
+NoConn ~ 6300 4740
 $EndSCHEMATC

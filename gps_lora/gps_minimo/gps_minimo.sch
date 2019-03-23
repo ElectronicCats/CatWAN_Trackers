@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:gps_minimo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -430,8 +430,6 @@ $EndComp
 Wire Wire Line
 	3540 1970 3600 1970
 Wire Wire Line
-	4210 1970 4210 1770
-Wire Wire Line
 	3140 2570 3140 2630
 Wire Wire Line
 	3140 2630 3190 2630
@@ -500,8 +498,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 4090 3500 4450
 Wire Wire Line
-	3500 5130 3740 5130
-Wire Wire Line
 	3500 5390 3500 5130
 Connection ~ 3500 5130
 Wire Wire Line
@@ -509,8 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	4320 4650 4320 5130
 Connection ~ 4320 5130
-Wire Wire Line
-	4320 5130 4580 5130
 Wire Wire Line
 	4320 5420 4320 5130
 Wire Wire Line
@@ -558,6 +552,14 @@ F 4 "MBR120VLSFT3G" H 2220 -350 50  0001 C CNN "manf#"
 $EndComp
 Wire Wire Line
 	3900 1970 4210 1970
+Wire Wire Line
+	4210 1770 4210 1970
+Wire Wire Line
+	4580 5130 4320 5130
+Wire Wire Line
+	4040 5130 4320 5130
+Wire Wire Line
+	3500 5130 3740 5130
 $Comp
 L Device:D_Schottky D2
 U 1 1 5C6BC8F6
@@ -570,6 +572,4 @@ F 4 "MBR120VLSFT3G" H 2360 2810 50  0001 C CNN "manf#"
 	1    3890 5130
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4040 5130 4320 5130
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:gps_vehicular-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -146,7 +146,7 @@ F 3 "~" H 7650 3030 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L electroniccats:L80-M39 MODULE1
+L gps_vehicular-rescue:L80-M39-electroniccats MODULE1
 U 1 1 5C6B22A1
 P 9030 1590
 F 0 "MODULE1" H 9030 2457 50  0000 C CNN
@@ -950,4 +950,21 @@ Wire Wire Line
 Wire Wire Line
 	9690 2090 9690 2190
 Connection ~ 9690 2190
+Text Label 6300 2410 0    50   ~ 0
+1PPS
+Text Label 6300 810  0    50   ~ 0
+LED_1
+Text Label 6300 910  0    50   ~ 0
+LED_2
+Text Label 6300 1410 0    50   ~ 0
+SIG_IGNI
+Text Label 6300 1510 0    50   ~ 0
+OUT_SIG
+Text Label 6300 1810 0    50   ~ 0
+SIG_PANI
+Text Label 6300 1310 0    50   ~ 0
+SIG_CONECTADO
+NoConn ~ 6300 1110
+NoConn ~ 6300 1710
+NoConn ~ 6300 3810
 $EndSCHEMATC
