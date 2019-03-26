@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name gps_animal-rescue)(type Legacy)(uri ${KIPRJMOD}/gps_animal-rescue.lib)(options "")(descr ""))
-)
