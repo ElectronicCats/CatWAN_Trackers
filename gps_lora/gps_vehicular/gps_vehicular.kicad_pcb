@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 20)
     (tracks 471)
     (zones 0)
     (modules 56)
@@ -3526,6 +3526,18 @@
       (xy 1.372452 -1.683595)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "GND\n" (at 142.04 55.23 90) (layer F.SilkS) (tstamp 5C9D9AC1)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text SWCLK (at 139.56 54.39 90) (layer F.SilkS) (tstamp 5C9D9ABD)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "SWDIO\n" (at 136.97 54.64 90) (layer F.SilkS) (tstamp 5C9D9AB7)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text 3.3V (at 134.48 55.09 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_arc (start 168.71 89.17) (end 168.71 94.32) (angle -90) (layer Edge.Cuts) (width 0.2) (tstamp 5C9D8AC4))
   (gr_arc (start 107.87 89.16) (end 102.72 89.16) (angle -90) (layer Edge.Cuts) (width 0.2))
   (dimension 16.256 (width 0.15) (layer Margin)
