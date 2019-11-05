@@ -30,3 +30,5 @@ _autosave-*
 
 # End of https://www.gitignore.io/api/kicad
 \.DS_Store
+
+Hardware/gps_minimo/gebers_minimo_v01/
